@@ -12,6 +12,16 @@
 		7A2CF47D21A8EC5B0055A6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CF47B21A8EC5B0055A6CC /* Main.storyboard */; };
 		7A2CF47F21A8EC5D0055A6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CF47E21A8EC5D0055A6CC /* Assets.xcassets */; };
 		7A2CF48221A8EC5D0055A6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2CF48021A8EC5D0055A6CC /* LaunchScreen.storyboard */; };
+		7A2CF48C21A8F04F0055A6CC /* FruitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF48B21A8F04F0055A6CC /* FruitListView.swift */; };
+		7A2CF48F21A8F16B0055A6CC /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF48E21A8F16B0055A6CC /* FruitModel.swift */; };
+		7A2CF49321A8F20E0055A6CC /* FruitListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49221A8F20E0055A6CC /* FruitListPresenter.swift */; };
+		7A2CF49621A9DB3F0055A6CC /* FruitListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49521A9DB3F0055A6CC /* FruitListPresenterProtocol.swift */; };
+		7A2CF49921A9E0EE0055A6CC /* FruitListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49821A9E0EE0055A6CC /* FruitListWireframe.swift */; };
+		7A2CF49B21A9E1200055A6CC /* FruitListWireFrameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49A21A9E1200055A6CC /* FruitListWireFrameProtocol.swift */; };
+		7A2CF49E21AA11BD0055A6CC /* FruitListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49D21AA11BD0055A6CC /* FruitListInteractor.swift */; };
+		7A2CF4A021AA11CE0055A6CC /* FruitListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF49F21AA11CE0055A6CC /* FruitListInteractorProtocol.swift */; };
+		7A2CF4A221AA133F0055A6CC /* FruitListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF4A121AA133F0055A6CC /* FruitListViewProtocol.swift */; };
+		7A2CF4A421AA20C80055A6CC /* FruitTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2CF4A321AA20C80055A6CC /* FruitTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		7A2CF47E21A8EC5D0055A6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2CF48121A8EC5D0055A6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2CF48321A8EC5D0055A6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2CF48B21A8F04F0055A6CC /* FruitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListView.swift; sourceTree = "<group>"; };
+		7A2CF48E21A8F16B0055A6CC /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		7A2CF49221A8F20E0055A6CC /* FruitListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListPresenter.swift; sourceTree = "<group>"; };
+		7A2CF49521A9DB3F0055A6CC /* FruitListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListPresenterProtocol.swift; sourceTree = "<group>"; };
+		7A2CF49821A9E0EE0055A6CC /* FruitListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListWireframe.swift; sourceTree = "<group>"; };
+		7A2CF49A21A9E1200055A6CC /* FruitListWireFrameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListWireFrameProtocol.swift; sourceTree = "<group>"; };
+		7A2CF49D21AA11BD0055A6CC /* FruitListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListInteractor.swift; sourceTree = "<group>"; };
+		7A2CF49F21AA11CE0055A6CC /* FruitListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListInteractorProtocol.swift; sourceTree = "<group>"; };
+		7A2CF4A121AA133F0055A6CC /* FruitListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListViewProtocol.swift; sourceTree = "<group>"; };
+		7A2CF4A321AA20C80055A6CC /* FruitTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 		7A2CF47621A8EC5B0055A6CC /* VIPER_DESIGN_PATTERN_EXAMPLE.git */ = {
 			isa = PBXGroup;
 			children = (
+				7A2CF48921A8ED550055A6CC /* FruitList */,
+				7A2CF48A21A8F00F0055A6CC /* FruitDetail */,
 				7A2CF47721A8EC5B0055A6CC /* AppDelegate.swift */,
 				7A2CF47921A8EC5B0055A6CC /* ViewController.swift */,
 				7A2CF47B21A8EC5B0055A6CC /* Main.storyboard */,
@@ -62,6 +84,78 @@
 				7A2CF48321A8EC5D0055A6CC /* Info.plist */,
 			);
 			path = VIPER_DESIGN_PATTERN_EXAMPLE.git;
+			sourceTree = "<group>";
+		};
+		7A2CF48921A8ED550055A6CC /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF49C21AA119E0055A6CC /* interactor */,
+				7A2CF49721A9E08D0055A6CC /* Wireframe */,
+				7A2CF49421A9DB270055A6CC /* Protocols */,
+				7A2CF49121A8F1C60055A6CC /* Presenter */,
+				7A2CF49021A8F1B20055A6CC /* View */,
+				7A2CF48D21A8F1500055A6CC /* Entity */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		7A2CF48A21A8F00F0055A6CC /* FruitDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FruitDetail;
+			sourceTree = "<group>";
+		};
+		7A2CF48D21A8F1500055A6CC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF48E21A8F16B0055A6CC /* FruitModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7A2CF49021A8F1B20055A6CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF48B21A8F04F0055A6CC /* FruitListView.swift */,
+				7A2CF4A321AA20C80055A6CC /* FruitTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A2CF49121A8F1C60055A6CC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF49221A8F20E0055A6CC /* FruitListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7A2CF49421A9DB270055A6CC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF49521A9DB3F0055A6CC /* FruitListPresenterProtocol.swift */,
+				7A2CF49A21A9E1200055A6CC /* FruitListWireFrameProtocol.swift */,
+				7A2CF49F21AA11CE0055A6CC /* FruitListInteractorProtocol.swift */,
+				7A2CF4A121AA133F0055A6CC /* FruitListViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7A2CF49721A9E08D0055A6CC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF49821A9E0EE0055A6CC /* FruitListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		7A2CF49C21AA119E0055A6CC /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7A2CF49D21AA11BD0055A6CC /* FruitListInteractor.swift */,
+			);
+			path = interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +229,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2CF48F21A8F16B0055A6CC /* FruitModel.swift in Sources */,
+				7A2CF49921A9E0EE0055A6CC /* FruitListWireframe.swift in Sources */,
+				7A2CF49B21A9E1200055A6CC /* FruitListWireFrameProtocol.swift in Sources */,
+				7A2CF49321A8F20E0055A6CC /* FruitListPresenter.swift in Sources */,
+				7A2CF4A221AA133F0055A6CC /* FruitListViewProtocol.swift in Sources */,
+				7A2CF49621A9DB3F0055A6CC /* FruitListPresenterProtocol.swift in Sources */,
+				7A2CF49E21AA11BD0055A6CC /* FruitListInteractor.swift in Sources */,
+				7A2CF4A421AA20C80055A6CC /* FruitTableCell.swift in Sources */,
 				7A2CF47A21A8EC5B0055A6CC /* ViewController.swift in Sources */,
+				7A2CF48C21A8F04F0055A6CC /* FruitListView.swift in Sources */,
 				7A2CF47821A8EC5B0055A6CC /* AppDelegate.swift in Sources */,
+				7A2CF4A021AA11CE0055A6CC /* FruitListInteractorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
